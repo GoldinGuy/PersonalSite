@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif !important;
+}
+/* 
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+
+/* change text selection color  */
+
+*::selection {
+    background: #1E40AF;
+}
+*::-moz-selection {
+  background: #1E40AF;
+}
+*::-webkit-selection {
+    background: #1E40AF;
+}
