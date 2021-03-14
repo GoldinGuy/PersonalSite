@@ -1,10 +1,9 @@
-# Abrams Psychology
+# Personal Site
 
-:clipboard: Website for Abrams Psychology, a FL-based psychology practice
+👋 Root site for all my projects!
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/33eec85d-0da6-49dd-9d68-9c082357dec7/deploy-status)](https://app.netlify.com/sites/hardcore-fermi-7a85bb/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f74ddb99-c940-4c5c-acc3-4c9044ea0d60/deploy-status)](https://app.netlify.com/sites/eloquent-kilby-9a6b85/deploys)
 
-Detailed onepager website for Dr. David J Abrams, built with html5 and TailWind CSS.
-Highlights details such as phone number, location/directions, etc. Contains a detailed bio and CV, forms and resources, services, testimonials, and a contact form.
+Credit to [Matei Copot](https://codepen.io/towc/pen/wGjXGY) for his work on a stunning neural network animation.
 
-Can be seen at https://davidabramspsychology.com/
+Site can be seen at https://seth.goldin.io/
