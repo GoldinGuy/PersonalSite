@@ -26,69 +26,62 @@
 		/>
 		<link type="text/css" href="./css/style.css" rel="stylesheet" />
 	</head>
-	<body>
+	<body class="overflow-x-hidden w-screen">
 		<!-- header  -->
-		<div
+		<div id="tsparticles"></div>
+		<!-- <div
 			class="text-gray-600 body-font py-4 m-auto left-0 right-0 text-center absolute top-0 w-screen sm:visible invisible"
 		>
 			<p class="text-sm">
 				<a
 					href="https://ideastorm.app"
 					rel="noopener noreferrer"
-					class="text-gray-600 hover:text-blue-500 mx-8"
+					class="text-gray-600 hover:text-teal-500 mx-8"
 					target="_blank"
 					>Ideastorm</a
 				>
 				<a
 					href="https://peardrop.goldin.io"
 					rel="noopener noreferrer"
-					class="text-gray-600 mx-8 hover:text-blue-500"
+					class="text-gray-600 mx-8 hover:text-teal-500"
 					target="_blank"
 					>Peardrop</a
 				>
 				<a
 					href="https://readtogetheronline.com"
 					rel="noopener noreferrer"
-					class="text-gray-600 mx-8 hover:text-blue-500"
+					class="text-gray-600 mx-8 hover:text-teal-500"
 					target="_blank"
 					>ReadTogether</a
 				>
 				<a
 					href="https://musicwithamaster.com"
 					rel="noopener noreferrer"
-					class="text-gray-600 mx-8 hover:text-blue-500"
+					class="text-gray-600 mx-8 hover:text-teal-500"
 					target="_blank"
 					>MusicWithAMaster</a
 				>
 				<a
 					href="https://github.com/GoldinGuy/K-Means-TS"
 					rel="noopener noreferrer"
-					class="text-gray-600 mx-8 hover:text-blue-500"
+					class="text-gray-600 mx-8 hover:text-teal-500"
 					target="_blank"
 					>KMeans-TS</a
 				>
 				<a
 					href="https://github.com/GoldinGuy/TabExplosion"
 					rel="noopener noreferrer"
-					class="text-gray-600 mx-8 hover:text-blue-500"
+					class="text-gray-600 mx-8 hover:text-teal-500"
 					target="_blank"
 					>TabExplosion</a
 				>
-				<!-- TODO: add catalyst  <a
-					href="https://GoldinWebDesign.com"
-					rel="noopener noreferrer"
-					class="text-gray-600 mx-8 hover:text-blue-500"
-					target="_blank"
-					>CatalystReact</a
-				> -->
+			
 			</p>
-		</div>
+		</div> -->
 
 		<!-- hero  -->
-		<div
-			class="h-screen bg-gray-700 overflow-hidden flex justify-center items-center"
-		>
-			<span class="z-50 absolute text-white text-center">
+		<div class="h-screen overflow-hidden flex justify-center items-center">
+			<span class="z-50 absolute text-teal-400 text-center">
 				<span class="font-extrabold text-5xl md:text-6xl flex flex-col">
 					Seth Goldin
 				</span>
@@ -97,7 +90,7 @@
 					<a
 						href="https://github.com/goldinguy"
 						rel="noopener noreferrer"
-						class="hover:text-blue-500"
+						class="hover:text-teal-500"
 						target="_blank"
 						>Developer</a
 					>
@@ -105,16 +98,236 @@
 					<a
 						href="https://github.com/goldinguy"
 						rel="noopener noreferrer"
-						class="hover:text-blue-500"
+						class="hover:text-teal-500"
 						target="_blank"
 						>Data Scientist</a
 					></span
 				>
 			</span>
-
 			<!-- neurons  -->
-			<canvas id="neuron_canvas" class="z-2"></canvas>
+			<!-- <canvas id="neuron_canvas" class="z-2"></canvas> -->
 		</div>
+		<section class="bg-teal-50" id="portfolio">
+			<div
+				class="px-3 pt-12 pb-0 mx-auto sm:px-6 sm:pt-16 md:max-w-4xl md:pt-20 lg:pt-32 lg:max-w-6xl overflow-hidden"
+			>
+				<div
+					class="flex flex-wrap -mx-3 md:px-3 xl:px-0 md:-mx-0 lg:-mx-3 md:mb-10"
+				>
+					<!-- SwiftGrade -->
+					<div
+						class="w-full px-6 mb-12 md:w-1/3 sm:w-1/2 md:px-3 lg:px-6 sm:mb-16 md:mb-24"
+					>
+						<div class="text-gray-800 dark:text-white">
+							<div>
+								<h4 class="mb-2 text-2xl font-bold md:text-2_5xl font-header">
+									<a href="https://getswiftgrade.com/" title="SwiftGrade Img">
+										<img
+											src="./assets/swiftgrade.png"
+											class="transition duration-500 ease-in-out transform rounded shadow-xl hover:shadow-xl hover:scale-105 hover:-translate-y-1 mb-5 sm:h-64"
+											alt="SwiftGrade Img"
+										/>
+									</a>
+									<a href="https://getswiftgrade.com/">
+										<span class="text-teal-500 text-2xl">SwiftGrade</span>
+										<i
+											class="fas fa-external-link-alt inline mb-1 ml-4 hover:text-teal-400"
+										></i>
+									</a>
+									<span
+										class="inline mb-0 ml-1 mr-1 text-xl text-gray-600 font-body"
+										>•</span
+									>
+									<a
+										href="https://github.com/SwiftGrade"
+										class="inline light dark"
+									>
+										<span class="sr-only">Github: SwiftGrade</span>
+										<i
+											class="fab fa-github-alt inline mb-0 hover:text-teal-400"
+										></i>
+									</a>
+								</h4>
+								<p class="block mb-6 text-gray-600 text-base">
+									Built an app for students to easily access information about
+									grades and assignments in Palm Beach County. The app,
+									SwiftGrade, was officially approved by the School District of
+									Palm Beach County Technology Clearinghouse Committee and
+									supports more than 180 schools with over 6000 active users.
+								</p>
+								<div class="flex flex-wrap">
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										Flutter
+									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										Dart
+									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										App Dev
+									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										Web Scraping
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Peardrop  -->
+					<div
+						class="w-full px-6 mb-12 md:w-1/3 sm:w-1/2 md:px-3 lg:px-6 sm:mb-16 md:mb-24"
+					>
+						<div class="text-gray-800 dark:text-white">
+							<div>
+								<h4 class="mb-2 text-2xl font-bold md:text-2_5xl font-header">
+									<a href="https://peardrop.goldin.io/" title="PearDrop Img">
+										<img
+											src="./assets/peardrop.png"
+											class="transition duration-500 ease-in-out transform rounded shadow-xl hover:shadow-xl hover:scale-105 hover:-translate-y-1 mb-5 sm:h-64"
+											alt="PearDrop Img"
+										/>
+									</a>
+									<a href="https://peardrop.goldin.io/">
+										<span class="text-teal-500 text-2xl">PearDrop</span>
+										<i
+											class="fas fa-external-link-alt inline mb-1 ml-4 hover:text-teal-400"
+										></i>
+									</a>
+									<span
+										class="inline mb-0 ml-1 mr-1 text-xl text-gray-600 font-body"
+										>•</span
+									>
+									<a
+										href="https://github.com/GoldinGuy/PearDrop"
+										class="inline light dark"
+									>
+										<span class="sr-only">Github: PearDrop</span>
+										<i
+											class="fab fa-github-alt inline mb-0 hover:text-teal-400"
+										></i>
+									</a>
+								</h4>
+								<p class="block mb-6 text-gray-600 text-base">
+									Sending a file from one place to another is difficult and
+									frustrating, usually requiring you to send an email to
+									yourself. Built a cross-platform file-transfer application in
+									Flutter using a custom protocol to allow for simple and
+									efficient file transfer when you really need it.
+								</p>
+								<div class="flex flex-wrap">
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										Flutter
+									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										Dart
+									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										App Dev
+									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										Cross-Platform
+									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										C++
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Music With A Master -->
+					<div
+						class="w-full px-6 mb-12 md:w-1/3 sm:w-1/2 md:px-3 lg:px-6 sm:mb-16 md:mb-24"
+					>
+						<div class="text-gray-800 dark:text-white">
+							<div>
+								<h4 class="mb-2 text-2xl font-bold md:text-2_5xl font-header">
+									<a
+										href="https://musicwithamaster.com/"
+										title="MusicWithAMaster Img"
+									>
+										<img
+											src="./assets/musicwithamaster.png"
+											class="transition duration-500 ease-in-out transform rounded shadow-xl hover:shadow-xl hover:scale-105 hover:-translate-y-1 mb-5 sm:h-64"
+											alt="MusicWithAMaster Img"
+										/>
+									</a>
+									<a href="https://musicwithamaster.com/">
+										<span class="text-teal-500 text-2xl">MusicWithAMaster</span>
+										<i
+											class="fas fa-external-link-alt inline mb-1 ml-4 hover:text-teal-400"
+										></i>
+									</a>
+									<span
+										class="inline mb-0 ml-1 mr-1 text-xl text-gray-600 font-body"
+										>•</span
+									>
+									<a
+										href="https://github.com/MusicWithAMaster"
+										class="inline light dark"
+									>
+										<span class="sr-only">Github: MusicWithAMaster</span>
+										<i
+											class="fab fa-github-alt inline mb-0 hover:text-teal-400"
+										></i>
+									</a>
+								</h4>
+								<p class="block mb-6 text-gray-600 text-base">
+									Developed a platform to support professional musicians unable
+									to perform publicly during the difficult times of Covid19 by
+									connecting them with passionate students desiring to learn and
+									share their love of music.
+								</p>
+								<div class="flex flex-wrap">
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										WordPress
+									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										MX Servers
+									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										DigitalOcean
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- end works  -->
+				</div>
+			</div>
+		</section>
 
 		<!-- footer -->
 		<footer class="text-gray-600 body-font absolute bottom-0 w-screen">
@@ -127,7 +340,7 @@
 						<a
 							href="https://GoldinWebDesign.com"
 							rel="noopener noreferrer"
-							class="text-gray-600 ml-1 hover:text-blue-500"
+							class="text-gray-600 ml-1 hover:text-teal-500"
 							target="_blank"
 							>Goldin Web Design</a
 						>
@@ -137,7 +350,7 @@
 					>
 						<!-- linkedin -->
 						<a
-							class="text-gray-600 hover:text-blue-500"
+							class="text-gray-600 hover:text-teal-500"
 							href="https://www.linkedin.com/in/sethgoldin/"
 							rel="noopener noreferrer"
 							target="_blank"
@@ -161,7 +374,7 @@
 						</a>
 						<!-- github  -->
 						<a
-							class="ml-3 text-gray-600 hover:text-blue-500"
+							class="ml-3 text-gray-600 hover:text-teal-500"
 							href="https://github.com/goldinguy"
 							rel="noopener noreferrer"
 							target="_blank"
@@ -185,7 +398,7 @@
 
 						<!-- facebook  -->
 						<a
-							class="ml-2 text-gray-600 hover:text-blue-500"
+							class="ml-2 text-gray-600 hover:text-teal-500"
 							href="https://www.facebook.com/seth.goldin.35/"
 							rel="noopener noreferrer"
 							target="_blank"
@@ -206,7 +419,7 @@
 						</a>
 						<!-- twitter  -->
 						<a
-							class="ml-3 text-gray-600 hover:text-blue-500"
+							class="ml-3 text-gray-600 hover:text-teal-500"
 							href="https://twitter.com/GoldinGuy27"
 							rel="noopener noreferrer"
 							title="Twitter"
@@ -227,7 +440,7 @@
 						</a>
 						<!-- insta  -->
 						<a
-							class="ml-3 text-gray-600 hover:text-blue-500"
+							class="ml-3 text-gray-600 hover:text-teal-500"
 							href="https://www.instagram.com/goldinguy_/"
 							rel="noopener noreferrer"
 							title="Insta"
@@ -250,7 +463,7 @@
 						</a>
 						<!-- resume  -->
 						<a
-							class="ml-3 text-gray-600 hover:text-blue-500"
+							class="ml-3 text-gray-600 hover:text-teal-500"
 							href="./assets/Resume.pdf"
 							title="CV"
 							target="_blank"
@@ -296,5 +509,12 @@
 		</footer>
 	</body>
 
-	<script src="js/script.js"></script>
+	<!-- <script src="js/script.js"></script> -->
+	<script src="https://cdn.jsdelivr.net/npm/tsparticles"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery-particles"></script>
+	<script
+		src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+		data-auto-replace-svg="nest"
+	></script>
+	<script src="js/particles.js"></script>
 </html>
