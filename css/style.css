@@ -13,13 +13,13 @@ canvas {
 /* change text selection color  */
 
 *::selection {
-	background: #1e40af;
+	background: #38b2ac;
 }
 *::-moz-selection {
-	background: #1e40af;
+	background: #38b2ac;
 }
 *::-webkit-selection {
-	background: #1e40af;
+	background: #38b2ac;
 }
 
 /* ---- reset ---- */
@@ -30,7 +30,7 @@ body {
 
 canvas {
 	display: block;
-	vertical-align: bottom;
+	/* vertical-align: bottom; */
 	background-size: 100% auto;
 }
 /* ---- tsparticles container ---- */
@@ -43,4 +43,44 @@ canvas {
 	background-image: url("");
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.icon-scroll,
+.icon-scroll:before {
+	position: absolute;
+	left: 50%;
+	bottom: 3%;
+}
+
+.icon-scroll {
+	width: 35px;
+	height: 60px;
+	margin-left: -20px;
+	/* top: 50%; */
+	margin-top: -35px;
+	box-shadow: inset 0 0 0 1px #fff;
+	border-radius: 25px;
+}
+
+.icon-scroll:before {
+	content: "";
+	width: 8px;
+	height: 8px;
+	background: #fff;
+	margin-left: -4px;
+	top: 8px;
+	border-radius: 4px;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+	animation-name: scroll;
+}
+
+@keyframes scroll {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		transform: translateY(40px);
+	}
 }

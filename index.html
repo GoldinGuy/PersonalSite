@@ -10,12 +10,12 @@
 		<!-- TODO:  -->
 		<meta
 			name="description"
-			content="Aspiring developer and data scientist. Building technical solutions to real-world problems"
+			content="Student developer and data scientist. Building technical solutions to real-world problems"
 		/>
 
 		<meta name="author" content="Goldin Web Design" />
 
-		<title>Seth Goldin | Student Developer</title>
+		<title>Seth Goldin | Student Developer & Data Scientist</title>
 
 		<!-- fav  -->
 		<link rel="shortcut icon" href="./assets/favicon.ico" />
@@ -26,93 +26,108 @@
 		/>
 		<link type="text/css" href="./css/style.css" rel="stylesheet" />
 	</head>
-	<body class="overflow-x-hidden w-screen">
+	<body class="overflow-x-hidden w-screen" id="home">
 		<!-- header  -->
 		<div id="tsparticles"></div>
-		<!-- <div
-			class="text-gray-600 body-font py-4 m-auto left-0 right-0 text-center absolute top-0 w-screen sm:visible invisible"
-		>
-			<p class="text-sm">
-				<a
-					href="https://ideastorm.app"
-					rel="noopener noreferrer"
-					class="text-gray-600 hover:text-teal-500 mx-8"
-					target="_blank"
-					>Ideastorm</a
-				>
-				<a
-					href="https://peardrop.goldin.io"
-					rel="noopener noreferrer"
-					class="text-gray-600 mx-8 hover:text-teal-500"
-					target="_blank"
-					>Peardrop</a
-				>
-				<a
-					href="https://readtogetheronline.com"
-					rel="noopener noreferrer"
-					class="text-gray-600 mx-8 hover:text-teal-500"
-					target="_blank"
-					>ReadTogether</a
-				>
-				<a
-					href="https://musicwithamaster.com"
-					rel="noopener noreferrer"
-					class="text-gray-600 mx-8 hover:text-teal-500"
-					target="_blank"
-					>MusicWithAMaster</a
-				>
-				<a
-					href="https://github.com/GoldinGuy/K-Means-TS"
-					rel="noopener noreferrer"
-					class="text-gray-600 mx-8 hover:text-teal-500"
-					target="_blank"
-					>KMeans-TS</a
-				>
-				<a
-					href="https://github.com/GoldinGuy/TabExplosion"
-					rel="noopener noreferrer"
-					class="text-gray-600 mx-8 hover:text-teal-500"
-					target="_blank"
-					>TabExplosion</a
-				>
-			
-			</p>
-		</div> -->
-
 		<!-- hero  -->
 		<div class="h-screen overflow-hidden flex justify-center items-center">
-			<span class="z-50 absolute text-teal-400 text-center">
+			<span class="z-50 absolute text-white text-center">
 				<span class="font-extrabold text-5xl md:text-6xl flex flex-col">
 					Seth Goldin
 				</span>
 				<span class="font-bold text-lg md:text-2xl"
-					>Aspiring
+					>Student
 					<a
 						href="https://github.com/goldinguy"
 						rel="noopener noreferrer"
-						class="hover:text-teal-500"
+						class="transition duration-500 ease-in-out hover:bg-teal-500 transform hover:-translate-y-1 hover:scale-110 py-2"
 						target="_blank"
 						>Developer</a
 					>
 					&
 					<a
-						href="https://github.com/goldinguy"
+						href="https://mpfi.org/training/max-planck-academy/"
 						rel="noopener noreferrer"
-						class="hover:text-teal-500"
+						class="transition duration-500 ease-in-out hover:bg-teal-500 transform hover:-translate-y-1 hover:scale-110 py-2"
 						target="_blank"
 						>Data Scientist</a
 					></span
 				>
 			</span>
-			<!-- neurons  -->
-			<!-- <canvas id="neuron_canvas" class="z-2"></canvas> -->
+			<a class="icon-scroll" href="#about"></a>
 		</div>
-		<section class="bg-teal-50" id="portfolio">
+		<!-- about  -->
+
+		<section
+			id="about"
+			class="flex flex-col sm:flex-row max-w-md px-6 py-12 mx-auto sm:px-10 sp:px-10 md:px-8 sm:max-w-2xl md:max-w-3xl lg:max-w-screen-xl sm:py-10 md:py-14 lg:py-20 items-center"
+		>
 			<div
-				class="px-3 pt-12 pb-0 mx-auto sm:px-6 sm:pt-16 md:max-w-4xl md:pt-20 lg:pt-32 lg:max-w-6xl overflow-hidden"
+				class="text-center mx-auto mt-12 mb-10 md:mb-12 text-3xl text-teal-600"
 			>
 				<div
-					class="flex flex-wrap -mx-3 md:px-3 xl:px-0 md:-mx-0 lg:-mx-3 md:mb-10"
+					class="w-56 h-56 overflow-hidden rounded-full mb-5"
+					style="
+						background-image: linear-gradient(
+								rgba(86, 255, 214, 0.2),
+								rgba(86, 255, 214, 0.2)
+							),
+							url('./assets/portfolio.png');
+						background-size: 14rem 14rem;
+					"
+				></div>
+				<!-- socials  -->
+				<a href="https://github.com/GoldinGuy" class="inline px-1">
+					<i class="fab fa-github-alt inline mb-0 hover:text-teal-400"></i>
+				</a>
+				<a href="https://www.linkedin.com/in/sethgoldin/" class="inline px-1">
+					<i class="fab fa-linkedin inline mb-0 hover:text-teal-400"></i>
+				</a>
+				<a href="https://twitter.com/GoldinGuy27" class="inline px-1">
+					<i class="fab fa-twitter inline mb-0 hover:text-teal-400"></i>
+				</a>
+				<a href="https://www.instagram.com/goldinguy_/" class="inline px-1">
+					<i class="fab fa-instagram inline mb-0 hover:text-teal-400"></i>
+				</a>
+			</div>
+			<div class="text-gray-800 dark:text-white text-xl w-screen sm:w-2/3 px-8">
+				<span class="text-3xl font-semibold">Hi 👋, I'm Seth! </span
+				><br /><br />I'm a student developer in the
+				<a
+					class="text-teal-600"
+					href="https://mpfi.org/training/max-planck-academy/"
+					>FAU Max Planck Academy</a
+				>
+				currently studying data science 💹 with a focus on neuroscience 🧠. I
+				love to create things — from websites and apps, to robotics or visual
+				arts, I have pursued my passion to make something from nothing in
+				several areas. <br /><br />I'm fascinated by technology and how it can
+				impact the areas of education ✏️ and medicine 🩺. I also enjoy running
+				🏃.<br /><br />
+				<span class="font-semibold"
+					>Get in touch via
+					<a
+						href="mailto:seth@goldin.io?subject=Inquiry"
+						class="text-teal-600 transition duration-500 ease-in-out hover:bg-teal-500 hover:text-white transform hover:-translate-y-1 hover:scale-110 py-2"
+						>email</a
+					>, or view my
+					<a
+						href="assets/Resume.pdf"
+						class="text-teal-600 transition duration-500 ease-in-out hover:bg-teal-500 hover:text-white transform hover:-translate-y-1 hover:scale-110 py-2"
+						target="_blank"
+						>resume</a
+					>!</span
+				>
+			</div>
+		</section>
+
+		<!-- works  -->
+		<section class="bg-teal-50" id="works">
+			<div
+				class="px-3 pt-12 pb-0 mx-auto sm:px-6 sm:pt-10 md:max-w-4xl md:pt-10 lg:max-w-6xl overflow-hidden"
+			>
+				<div
+					class="flex flex-wrap -mx-3 md:px-3 xl:px-0 md:-mx-0 lg:-mx-3 md:mb-5"
 				>
 					<!-- GoldinWebDesign -->
 					<div
@@ -121,10 +136,7 @@
 						<div class="text-gray-800 dark:text-white">
 							<div>
 								<h4 class="mb-2 text-2xl font-bold md:text-2_5xl font-header">
-									<a
-										href="https://goldinwebdesign.com/"
-										title="GoldinWebDesign Img"
-									>
+									<a href="https://goldinwebdesign.com/">
 										<img
 											src="./assets/goldinwebdesign.png"
 											class="transition duration-500 ease-in-out transform rounded shadow-xl hover:shadow-xl hover:scale-105 hover:-translate-y-1 mb-5 sm:h-64"
@@ -142,7 +154,7 @@
 										>•</span
 									>
 									<a
-										href="https://github.com/GoldinWeb"
+										href="https://github.com/GoldinGuy/GoldinWeb"
 										class="inline light dark"
 									>
 										<span class="sr-only">Github: GoldinWebDesign</span>
@@ -152,17 +164,18 @@
 									</a>
 								</h4>
 								<p class="block mb-6 text-gray-600 text-base">
-									Goldin Web Design was launched after I recognized the need for
-									reasonably priced, attractive yet functional websites in my
-									community- merging my programming skills and visual arts
-									background. As part of this job I have built dozens of
-									websites for medical professionals and small businesses.
+									Launched after I recognized the need for reasonably priced,
+									attractive yet functional websites in my community, this
+									freelance web development business has allowed me to merge my
+									programming skills and visual arts background to great effect.
+									I have built dozens of websites for medical professionals and
+									small businesses.
 								</p>
 								<div class="flex flex-wrap">
 									<span
 										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
 									>
-										HTML5
+										HTML
 									</span>
 									<span class="mx-1"></span>
 									<span
@@ -174,7 +187,7 @@
 									<span
 										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
 									>
-										Typescript
+										Cloudflare
 									</span>
 									<span class="mx-1"></span>
 									<span
@@ -199,7 +212,7 @@
 						<div class="text-gray-800 dark:text-white">
 							<div>
 								<h4 class="mb-2 text-2xl font-bold md:text-2_5xl font-header">
-									<a href="https://getswiftgrade.com/" title="SwiftGrade Img">
+									<a href="https://getswiftgrade.com/">
 										<img
 											src="./assets/swiftgrade.png"
 											class="transition duration-500 ease-in-out transform rounded shadow-xl hover:shadow-xl hover:scale-105 hover:-translate-y-1 mb-5 sm:h-64"
@@ -230,8 +243,13 @@
 									Developed an app for students to easily access information
 									about grades and assignments in Palm Beach County. The app was
 									officially approved by the School District of Palm Beach
-									County Technology Clearinghouse Committee and supports more
-									than 180 schools with over 6000 active users.
+									County
+									<a
+										class="text-teal-600"
+										href="https://www.palmbeachschools.org/school_board/board_advisory_committees/technology_advisory_committee__tac_"
+										>Technology Clearinghouse Committee</a
+									>, and supports more than 180 schools with over 6000 active
+									users.
 								</p>
 								<div class="flex flex-wrap">
 									<span
@@ -249,7 +267,25 @@
 									<span
 										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
 									>
-										Web Scraping
+										Bloc
+									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										Sentry
+									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										Scraping
+									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										OneSignal
 									</span>
 								</div>
 							</div>
@@ -262,7 +298,7 @@
 						<div class="text-gray-800 dark:text-white">
 							<div>
 								<h4 class="mb-2 text-2xl font-bold md:text-2_5xl font-header">
-									<a href="https://peardrop.goldin.io/" title="PearDrop Img">
+									<a href="https://peardrop.goldin.io/">
 										<img
 											src="./assets/peardrop.png"
 											class="transition duration-500 ease-in-out transform rounded shadow-xl hover:shadow-xl hover:scale-105 hover:-translate-y-1 mb-5 sm:h-64"
@@ -321,10 +357,93 @@
 									>
 										Cross-Platform
 									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										Kotlin
+									</span>
 								</div>
 							</div>
 						</div>
 					</div>
+
+					<!-- Catalyst -->
+					<div
+						class="w-full px-6 mb-12 md:w-1/3 sm:w-1/2 md:px-3 lg:px-6 sm:mb-16 md:mb-24"
+					>
+						<div class="text-gray-800 dark:text-white">
+							<div>
+								<h4 class="mb-2 text-2xl font-bold md:text-2_5xl font-header">
+									<a href="https://catalyst.chat/">
+										<img
+											src="./assets/catalyst.png"
+											class="transition duration-500 ease-in-out transform rounded shadow-xl hover:shadow-xl hover:scale-105 hover:-translate-y-1 mb-5 sm:h-64"
+											alt="Catalyst Img"
+										/>
+									</a>
+									<a href="https://catalyst.chat/">
+										<span class="text-teal-500 text-2xl">Catalyst</span>
+										<i
+											class="fas fa-external-link-alt inline mb-1 ml-4 hover:text-teal-400"
+										></i>
+									</a>
+									<span
+										class="inline mb-0 ml-1 mr-1 text-xl text-gray-600 font-body"
+										>•</span
+									>
+									<a
+										href="https://github.com/Catalyst-Video/catalyst-react"
+										class="inline light dark"
+									>
+										<span class="sr-only">Github: Catalyst</span>
+										<i
+											class="fab fa-github-alt inline mb-0 hover:text-teal-400"
+										></i>
+									</a>
+								</h4>
+								<p class="block mb-6 text-gray-600 text-base">
+									Created a fully customizable open-source video-chat component
+									for developers to integrate into their applications quickly
+									and easily. Powering several other student projects including
+									<a class="text-teal-600" href="https://hours.zone">Hours</a>,
+									which by itself drives several thousand meetings a week.
+								</p>
+								<div class="flex flex-wrap">
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										React
+									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										WebRTC
+									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										Socket.IO
+									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										Typescript
+									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										Netlify
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
 					<!-- Music With A Master -->
 					<div
 						class="w-full px-6 mb-12 md:w-1/3 sm:w-1/2 md:px-3 lg:px-6 sm:mb-16 md:mb-24"
@@ -332,10 +451,7 @@
 						<div class="text-gray-800 dark:text-white">
 							<div>
 								<h4 class="mb-2 text-2xl font-bold md:text-2_5xl font-header">
-									<a
-										href="https://musicwithamaster.com/"
-										title="MusicWithAMaster Img"
-									>
+									<a href="https://musicwithamaster.com/">
 										<img
 											src="./assets/musicwithamaster.png"
 											class="transition duration-500 ease-in-out transform rounded shadow-xl hover:shadow-xl hover:scale-105 hover:-translate-y-1 mb-5 sm:h-64"
@@ -353,7 +469,7 @@
 										>•</span
 									>
 									<a
-										href="https://github.com/MusicWithAMaster"
+										href="https://github.com/GoldinGuy/MusicWithAMaster"
 										class="inline light dark"
 									>
 										<span class="sr-only">Github: MusicWithAMaster</span>
@@ -374,6 +490,19 @@
 									>
 										WordPress
 									</span>
+
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										Vultr
+									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										PHP
+									</span>
 									<span class="mx-1"></span>
 									<span
 										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
@@ -384,7 +513,7 @@
 									<span
 										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
 									>
-										Vultr
+										Linux
 									</span>
 								</div>
 							</div>
@@ -397,7 +526,7 @@
 						<div class="text-gray-800 dark:text-white">
 							<div>
 								<h4 class="mb-2 text-2xl font-bold md:text-2_5xl font-header">
-									<a href="https://ideastorm.app/" title="Ideastorm Img">
+									<a href="https://ideastorm.app/">
 										<img
 											src="./assets/ideastorm.png"
 											class="transition duration-500 ease-in-out transform rounded shadow-xl hover:shadow-xl hover:scale-105 hover:-translate-y-1 mb-5 sm:h-64"
@@ -415,7 +544,7 @@
 										>•</span
 									>
 									<a
-										href="https://github.com/Ideastorm"
+										href="https://github.com/GoldinGuy/Ideastorm"
 										class="inline light dark"
 									>
 										<span class="sr-only">Github: Ideastorm</span>
@@ -425,10 +554,13 @@
 									</a>
 								</h4>
 								<p class="block mb-6 text-gray-600 text-base">
-									Developed a platform to support professional musicians unable
-									to perform publicly during the difficult times of Covid19 by
-									connecting them with passionate students desiring to learn and
-									share their love of music.
+									Built a full MERN-stack site for people to share and find
+									ideas, with the goal of eventually having a collective
+									hive-mind of human potential that anyone can contribute to.
+									Read more about the thought process behind it
+									<a class="text-teal-600" href="https://lnkd.in/eidXCVu"
+										>here</a
+									>.
 								</p>
 								<div class="flex flex-wrap">
 									<span
@@ -452,199 +584,280 @@
 									<span
 										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
 									>
-										TailwindCSS
+										Vercel
+									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										MongoDB
 									</span>
 								</div>
 							</div>
 						</div>
 					</div>
 
+					<!-- ReadTogether -->
+					<div
+						class="w-full px-6 mb-12 md:w-1/3 sm:w-1/2 md:px-3 lg:px-6 sm:mb-16 md:mb-24"
+					>
+						<div class="text-gray-800 dark:text-white">
+							<div>
+								<h4 class="mb-2 text-2xl font-bold md:text-2_5xl font-header">
+									<a href="https://readtogetheronline.com/">
+										<img
+											src="./assets/readtogether.png"
+											class="transition duration-500 ease-in-out transform rounded shadow-xl hover:shadow-xl hover:scale-105 hover:-translate-y-1 mb-5 sm:h-64"
+											alt="ReadTogether Img"
+										/>
+									</a>
+									<a href="https://readtogetheronline.com/">
+										<span class="text-teal-500 text-2xl">ReadTogether</span>
+										<i
+											class="fas fa-external-link-alt inline mb-1 ml-4 hover:text-teal-400"
+										></i>
+									</a>
+									<span
+										class="inline mb-0 ml-1 mr-1 text-xl text-gray-600 font-body"
+										>•</span
+									>
+									<a
+										href="https://github.com/GoldinGuy/ReadTogether"
+										class="inline light dark"
+									>
+										<span class="sr-only">Github: ReadTogether</span>
+										<i
+											class="fab fa-github-alt inline mb-0 hover:text-teal-400"
+										></i>
+									</a>
+								</h4>
+								<p class="block mb-6 text-gray-600 text-base">
+									Created a platform for literacy programs focusing on
+									elementary-aged underprivileged children to take place
+									virtually during Covid-19. Designed an interface that allowed
+									for split screen reading and video call in sync. Worked with
+									the
+									<a class="text-teal-600" href="http://www.pbclibrary.org/"
+										>PBC Library</a
+									>,
+									<a class="text-teal-600" href="https://littlesmilesfl.org/"
+										>Little Smiles</a
+									>,
+									<a
+										class="text-teal-600"
+										href="https://www.boystown.org/locations/south-florida/Pages/default.aspx"
+									>
+										Boys Town</a
+									>, and
+									<a class="text-teal-600" href="https://www.literacypbc.org/"
+										>Literacy Coalition</a
+									>
+
+									to develop the site.
+								</p>
+								<div class="flex flex-wrap">
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										React
+									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										Typescript
+									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										TailwindCSS
+									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										Catalyst
+									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										Vercel
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- ReadMe -->
+					<div
+						class="w-full px-6 mb-12 md:w-1/3 sm:w-1/2 md:px-3 lg:px-6 sm:mb-16 md:mb-24"
+					>
+						<div class="text-gray-800 dark:text-white">
+							<div>
+								<h4 class="mb-2 text-2xl font-bold md:text-2_5xl font-header">
+									<a href="https://readme.goldin.io/">
+										<img
+											src="./assets/readme.png"
+											class="transition duration-500 ease-in-out transform rounded shadow-xl hover:shadow-xl hover:scale-105 hover:-translate-y-1 mb-5 sm:h-64"
+											alt="ReadMe Img"
+										/>
+									</a>
+									<a href="https://readme.goldin.io/">
+										<span class="text-teal-500 text-2xl">ReadMe</span>
+										<i
+											class="fas fa-external-link-alt inline mb-1 ml-4 hover:text-teal-400"
+										></i>
+									</a>
+									<span
+										class="inline mb-0 ml-1 mr-1 text-xl text-gray-600 font-body"
+										>•</span
+									>
+									<a
+										href="https://github.com/GoldinGuy/ReadMe"
+										class="inline light dark"
+									>
+										<span class="sr-only">Github: ReadMe</span>
+										<i
+											class="fab fa-github-alt inline mb-0 hover:text-teal-400"
+										></i>
+									</a>
+								</h4>
+								<p class="block mb-6 text-gray-600 text-base">
+									Published a book recommendation system using a combination of
+									collaborative and content-based filtering, powered by around
+									14 million user ratings from Amazon and GoodReads. Deployed an
+									API to generate the recommendations as well as a custom user
+									interface.
+								</p>
+								<div class="flex flex-wrap">
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										Python
+									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										Jupyter
+									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										Heroku
+									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										Surprise
+									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										SVD
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- TopDeckedTools -->
+					<div
+						class="w-full px-6 mb-12 md:w-1/3 sm:w-1/2 md:px-3 lg:px-6 sm:mb-16 md:mb-24"
+					>
+						<div class="text-gray-800 dark:text-white">
+							<div>
+								<h4 class="mb-2 text-2xl font-bold md:text-2_5xl font-header">
+									<a href="https://topdecked.com/">
+										<img
+											src="./assets/topdecked.png"
+											class="transition duration-500 ease-in-out transform rounded shadow-xl hover:shadow-xl hover:scale-105 hover:-translate-y-1 mb-5 sm:h-64"
+											alt="TopDeckedTools Img"
+										/>
+									</a>
+									<a href="https://topdecked.com/">
+										<span class="text-teal-500 text-2xl">TopDeckedTools</span>
+										<i
+											class="fas fa-external-link-alt inline mb-1 ml-4 hover:text-teal-400"
+										></i>
+									</a>
+									<span
+										class="inline mb-0 ml-1 mr-1 text-xl text-gray-600 font-body"
+										>•</span
+									>
+									<a
+										href="https://github.com/GoldinGuy/TopDeckedTools"
+										class="inline light dark"
+									>
+										<span class="sr-only">Github: TopDeckedTools</span>
+										<i
+											class="fab fa-github-alt inline mb-0 hover:text-teal-400"
+										></i>
+									</a>
+								</h4>
+								<p class="block mb-6 text-gray-600 text-base">
+									Worked on several features through an internship with
+									<a
+										class="text-teal-600"
+										href="https://github.com/LincolnThree"
+										>@LincolnThree</a
+									>
+									for TopDecked, a platform aiming to bring the best tech to the
+									gaming industry. Gained experience in web frameworks,
+									pipelines, and data science tasks such as creating a
+									<a
+										class="text-teal-600"
+										href="https://github.com/GoldinGuy/K-Means-TS"
+										>K-means clustering implementation in TS</a
+									>.
+								</p>
+								<div class="flex flex-wrap">
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										Ionic5
+									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										Angular
+									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										Typescript
+									</span>
+									<span class="mx-1"></span>
+									<span
+										class="px-2 py-1 mb-2 text-gray-700 text-lg bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400"
+									>
+										K-means
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
 					<!-- end works  -->
 				</div>
 			</div>
 		</section>
-
-		<!-- footer -->
-		<footer class="text-gray-600 body-font absolute bottom-0 w-screen">
-			<div>
-				<div
-					class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row"
-				>
-					<p class="text-gray-600 text-sm text-center sm:text-left">
-						© 2021
-						<a
-							href="https://GoldinWebDesign.com"
-							rel="noopener noreferrer"
-							class="text-gray-600 ml-1 hover:text-teal-500"
-							target="_blank"
-							>Goldin Web Design</a
-						>
-					</p>
-					<span
-						class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start"
-					>
-						<!-- linkedin -->
-						<a
-							class="text-gray-600 hover:text-teal-500"
-							href="https://www.linkedin.com/in/sethgoldin/"
-							rel="noopener noreferrer"
-							target="_blank"
-							title="LinkedIn"
-						>
-							<svg
-								fill="currentColor"
-								stroke="currentColor"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="0"
-								class="w-5 h-5"
-								viewBox="0 0 24 24"
-							>
-								<path
-									stroke="none"
-									d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
-								></path>
-								<circle cx="4" cy="4" r="2" stroke="none"></circle>
-							</svg>
-						</a>
-						<!-- github  -->
-						<a
-							class="ml-3 text-gray-600 hover:text-teal-500"
-							href="https://github.com/goldinguy"
-							rel="noopener noreferrer"
-							target="_blank"
-							title="Github"
-						>
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="currentColor"
-								stroke="currentColor"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="0"
-								class="w-5 h-5"
-								viewBox="0 0 24 24"
-							>
-								<path
-									d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
-								/>
-							</svg>
-						</a>
-
-						<!-- facebook  -->
-						<a
-							class="ml-2 text-gray-600 hover:text-teal-500"
-							href="https://www.facebook.com/seth.goldin.35/"
-							rel="noopener noreferrer"
-							target="_blank"
-							title="Facebook"
-						>
-							<svg
-								fill="currentColor"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								class="w-5 h-5"
-								viewBox="0 0 24 24"
-							>
-								<path
-									d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
-								></path>
-							</svg>
-						</a>
-						<!-- twitter  -->
-						<a
-							class="ml-3 text-gray-600 hover:text-teal-500"
-							href="https://twitter.com/GoldinGuy27"
-							rel="noopener noreferrer"
-							title="Twitter"
-							target="_blank"
-						>
-							<svg
-								fill="currentColor"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								class="w-5 h-5"
-								viewBox="0 0 24 24"
-							>
-								<path
-									d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
-								></path>
-							</svg>
-						</a>
-						<!-- insta  -->
-						<a
-							class="ml-3 text-gray-600 hover:text-teal-500"
-							href="https://www.instagram.com/goldinguy_/"
-							rel="noopener noreferrer"
-							title="Insta"
-							target="_blank"
-						>
-							<svg
-								fill="none"
-								stroke="currentColor"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								class="w-5 h-5"
-								viewBox="0 0 24 24"
-							>
-								<rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-								<path
-									d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"
-								></path>
-							</svg>
-						</a>
-						<!-- resume  -->
-						<a
-							class="ml-3 text-gray-600 hover:text-teal-500"
-							href="./assets/Resume.pdf"
-							title="CV"
-							target="_blank"
-						>
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								x="0px"
-								y="0px"
-								class="w-5 h-5"
-								width="50"
-								height="50"
-								viewBox="0 0 172 172"
-								style="fill: #000000"
-							>
-								<g
-									fill="none"
-									fill-rule="nonzero"
-									stroke="none"
-									stroke-width="1"
-									stroke-linecap="butt"
-									stroke-linejoin="miter"
-									stroke-miterlimit="10"
-									stroke-dasharray=""
-									stroke-dashoffset="0"
-									font-family="none"
-									font-weight="none"
-									font-size="none"
-									text-anchor="none"
-									style="mix-blend-mode: normal"
-								>
-									<path d="M0,172v-172h172v172z" fill="none"></path>
-									<g fill="#718096">
-										<path
-											d="M20.64,6.88v154.8h115.22656l0.01344,0.01344l29.89844,-34.41344h-17.85844v-120.4zM52.9975,27.52c1.88125,0 3.29219,0.91375 3.85656,1.89469c5.21375,0 3.85656,7.26969 3.07719,9.66156c0.28219,0.29563 0.645,1.10188 0.645,2.19031c0,1.54531 -1.46469,2.48594 -1.46469,2.48594c-0.28219,1.98875 -1.69313,3.62813 -2.55313,4.03125c0,1.24969 -0.12094,2.20375 0,3.57438c1.49156,3.99094 11.395,2.86219 11.86531,10.56187h-30.58375c0.45688,-7.69969 10.36031,-6.57094 11.83844,-10.56187c0.13438,-1.37063 0,-2.32469 0,-3.57438c-0.61812,-0.3225 -2.33812,-2.06937 -2.60687,-4.03125c0,0 -1.3975,-0.67187 -1.47813,-2.78156c-0.04031,-1.10187 0.73906,-1.89469 0.73906,-1.89469c-1.45125,-5.60344 -0.83312,-11.42187 6.665,-11.55625zM89.44,34.4h27.52c1.89469,0 3.44,1.54531 3.44,3.44c0,1.89469 -1.54531,3.44 -3.44,3.44h-27.52c-1.89469,0 -3.44,-1.54531 -3.44,-3.44c0,-1.89469 1.54531,-3.44 3.44,-3.44zM89.44,51.6h27.52c1.89469,0 3.44,1.54531 3.44,3.44c0,1.89469 -1.54531,3.44 -3.44,3.44h-27.52c-1.89469,0 -3.44,-1.54531 -3.44,-3.44c0,-1.89469 1.54531,-3.44 3.44,-3.44zM41.28,86h48.16c1.89469,0 3.44,1.54531 3.44,3.44c0,1.89469 -1.54531,3.44 -3.44,3.44h-48.16c-1.89469,0 -3.44,-1.54531 -3.44,-3.44c0,-1.89469 1.54531,-3.44 3.44,-3.44zM130.72,103.2h10.32v30.96h9.66156l-14.82156,17.05219l-14.82156,-17.05219h9.66156zM41.28,106.64h37.84c1.89469,0 3.44,1.54531 3.44,3.44c0,1.89469 -1.54531,3.44 -3.44,3.44h-37.84c-1.89469,0 -3.44,-1.54531 -3.44,-3.44c0,-1.89469 1.54531,-3.44 3.44,-3.44zM41.28,127.28h48.16c1.89469,0 3.44,1.54531 3.44,3.44c0,1.89469 -1.54531,3.44 -3.44,3.44h-48.16c-1.89469,0 -3.44,-1.54531 -3.44,-3.44c0,-1.89469 1.54531,-3.44 3.44,-3.44z"
-										></path>
-									</g>
-								</g>
-							</svg>
-						</a>
-					</span>
-				</div>
-			</div>
-		</footer>
+		<div class="text-gray-800 text-2xl font-semibold text-center w-screen pb-6">
+			More projects to come!
+			<a
+				href="#home"
+				class="block w-40 m-auto text-teal-600 mt-2 transition duration-500 ease-in-out hover:bg-teal-500 hover:text-white transform hover:-translate-y-1 hover:scale-110 py-2"
+				>Back to top?</a
+			>
+		</div>
 	</body>
 
-	<!-- <script src="js/script.js"></script> -->
 	<script src="https://cdn.jsdelivr.net/npm/tsparticles"></script>
 	<script src="https://cdn.jsdelivr.net/npm/jquery-particles"></script>
 	<script
@@ -652,4 +865,6 @@
 		data-auto-replace-svg="nest"
 	></script>
 	<script src="js/particles.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/scroll.js"></script>
 </html>

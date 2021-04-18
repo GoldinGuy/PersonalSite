@@ -71,7 +71,7 @@ tsParticles.load("tsparticles", {
 		detect_on: "canvas",
 		events: {
 			onHover: {
-				enable: true,
+				enable: false, //true
 				mode: "bubble",
 				parallax: {
 					enable: false,
@@ -81,7 +81,7 @@ tsParticles.load("tsparticles", {
 			},
 			onClick: {
 				enable: true,
-				mode: "push"
+				mode: "repulse"
 			},
 			resize: true
 		},
