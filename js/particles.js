@@ -48,7 +48,7 @@ tsParticles.load("tsparticles", {
 		},
 		line_linked: {
 			enable: true,
-			distance: 150,
+			distance: 140,//150,
 			color: "#ffffff",
 			opacity: 1,
 			width: 1
